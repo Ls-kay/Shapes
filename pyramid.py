@@ -5,7 +5,7 @@ def full_pyramid(height):
             print(" ", end="")
 
         # print asterisks for curent row
-        for col1 in range(1, 2 * row):
+        for col in range(1, 2 * row):
             print("*", end="")
 
         print()
